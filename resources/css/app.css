@@ -1,0 +1,17 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+.button {
+    @apply shadow-md py-3 px-6 rounded-md transition duration-300
+}
+
+.white-button {
+    @apply bg-lab-white;
+}
+
+.purple-button {
+    @apply bg-lab-purple text-white;
+}
